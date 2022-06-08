@@ -39,7 +39,7 @@ pub struct ViewClip {
 
 impl PageContext for ViewClip {
     fn template_path(&self) -> &str {
-        "Clip"
+        "clip"
     }
 
     fn title(&self) -> &str {
